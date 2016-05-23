@@ -28,11 +28,13 @@ function basics(namesmall){
   console.log('namesmall', namesmall)
   return `
     <div class="info">
-      <h4> Name : ${namesmall.name}</h4>
-      <h4> GitHub :<a href="${namesmall.html_url}">${namesmall.login}</a> </h4>
-      <h4> Email: ${namesmall.email}</h4>
-      <h4> Company : ${namesmall.company}</h4>
-      <h4> Website : ${namesmall.url}</h4>
+      <div> Name : ${namesmall.name}</div>
+      <div> GitHub :<a href="${namesmall.html_url}">${namesmall.login}</a> </div>
+      <div> Email: ${namesmall.email}</div>
+      <div> Company : ${namesmall.company}</div>
+      <div> Website : ${namesmall.url}</div>
+      <p></p>
+      <img src="images/vcard.png"/>
     </div>
   `;
 }

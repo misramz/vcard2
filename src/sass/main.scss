@@ -1,0 +1,49 @@
+.name {
+  border: 1px solid black;
+  text-align: center;
+  background-color: grey;
+  color: white;
+  float: none;
+  width: 1000px;
+
+
+}
+
+
+.container {
+  background-color: pink;
+  position: absolute;
+  width: 1000px;
+  padding-top: 10px;
+
+}
+
+.info {
+  float: left;
+  position: relative;
+  padding-right: 20px;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.story {
+  float: left;
+  width: 300px;
+  position: relative;
+}
+
+.title {
+  font-size: 20px;
+}
+
+img {
+      width: 100px;
+     height: 100px;
+     background: red;
+     -moz-border-radius: 50px;
+     -webkit-border-radius: 50px;
+     border-radius: 50px;
+     margin-bottom: 50px;
+     margin-left: 150px;
+
+}
